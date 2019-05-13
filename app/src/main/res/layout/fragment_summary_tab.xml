@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!-- TODO: Update blank fragment layout -->
+    <!--<TextView-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="Tab 1"-->
+    <!--android:layout_centerInParent="true"-->
+    <!--android:textSize="30dp"-->
+    <!--/>-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:text="Giá vé tham quan :"
+            android:textSize="13pt"
+            android:drawableLeft="@drawable/icons_coin"
+            android:drawablePadding="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="22.000 VNĐ"
+            android:textSize="10pt"
+            android:layout_marginLeft="80dp"/>
+        <View
+            android:layout_marginTop="10dp"
+            android:layout_width="350dp"
+            android:layout_gravity="center"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:text="Giờ mở cửa :"
+            android:textSize="13pt"
+            android:drawableLeft="@drawable/icons8_watch"
+            android:drawablePadding="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="6 h - 22 h"
+            android:textSize="10pt"
+            android:layout_marginLeft="80dp"/>
+        <View
+            android:layout_marginTop="10dp"
+            android:layout_width="350dp"
+            android:layout_gravity="center"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"/>
+    </LinearLayout>
+
+</LinearLayout>

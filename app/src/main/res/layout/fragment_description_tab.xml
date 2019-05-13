@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DescriptionTab">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textSize="10pt"
+        android:textColor="#000"
+        android:text="Vẻ đẹp hoang sơ hữu tình của bãi biển Đại Lãnh Nha Trang. Ai đã một lần đến nơi đây đều khẳng định “Đại Lãnh có thể lọt top những bãi biển đẹp nhất thế giới với vẻ đẹp thiên nhiên hoang dã, sơn thủy hữu tình”. Với rừng dương xanh ôm lấy bờ cát mịn màng, dải sóng trắng nhẹ nhàng lăn trên mặt biển xanh, bãi biển Đại Lãnh là một trong những bãi biển đẹp nhất của miền Trung và cả nước" />
+
+</FrameLayout>
